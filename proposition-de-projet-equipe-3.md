@@ -7,33 +7,34 @@
 
 ## 1. Introduction
 
-Nous allons analyser des données sur le plus haut certificat, diplôme ou grade obtenu par la population âgée de 15 ans et plus dans les ménages privés d'Ottawa. Ces données proviennent d'un jeu de données de la Ville d'Ottawa mis à jour pour la dernière fois le 14 août 2024 qui se base sur le questionnaire recensement canadien détaillé de 2021 réalisé par Statistique Canada. Celui-ci a ét envoyé à 25 % des ménages du Canada. Ce qui sera intéressant avec ces données sera de constater quels quartiers ou communautés d'Ottawa contiennent les citoyens les plus ou moins éduqués.
+Nous allons analyser des données sur le plus haut certificat, diplôme ou grade obtenu par la population âgée de 15 ans et plus dans les ménages privés d'Ottawa. Ces données proviennent d'un jeu de données de la Ville d'Ottawa mis à jour pour la dernière fois le 14 août 2024. Il se base sur le questionnaire recensement canadien détaillé de 2021 réalisé par Statistique Canada. Celui-ci a été envoyé à 25 % des ménages du Canada. Ce qui sera intéressant avec ces données sera de constater quels quartiers ou communautés d'Ottawa contiennent les citoyens les plus ou moins éduqués.
 
 Le jeu de données original de la Ville d'Ottawa peut être retrouvé sur [ce lien](https://ouverte.ottawa.ca/datasets/ottawa::questionnaire-d%C3%A9taill%C3%A9-du-recensement-de-2021-donn%C3%A9es-par-quartier/about).
 
-La version en CSV, quant à elle, se trouve [ici](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/Questionnaire_d%C3%A9taill%C3%A9_du_recensement_de_2021_Donn%C3%A9es_par_quartier.csv).
+La version en CSV, prête à petre importée dans Google Feuilles de calcul, se trouve [ici](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/Questionnaire_d%C3%A9taill%C3%A9_du_recensement_de_2021_Donn%C3%A9es_par_quartier.csv).
 
-Dans ce travail, nous allons d'abord faire des observations générales sur les données dans la section *Obtenir les données*. Ensuite, nous allons aller plus loin en réalisant un analyse VIMA dans la section *Comprendre les données* qui nous permettra d'évaluer la qualité, l’exactitude et la fiabilité. Nous allons par après les nettoyer pour garantir leur cohérence et et aussi exécuter une analyse exploratoire des données (AED). Avant de conclure notre travail, nous allons proposer un récit potentiel en lien avec notre jeu de données. 
+Dans ce travail, nous allons d'abord faire des observations générales sur les données. Ensuite, nous allons aller plus loin en réalisant un analyse VIMA qui nous permettra d'évaluer la qualité, l’exactitude et la fiabilité. Nous allons par après les nettoyer pour garantir leur cohérence et aussi exécuter une analyse exploratoire des données (AED). Avant de conclure notre travail, nous allons proposer un récit potentiel en lien avec notre jeu de données. 
 
 ## 2. Obtenir les données
 
-Utilisez deux croisillons (`##`) pour créer un intertitre de niveau 2 comme celui-ci.
+D'abord, nous avons importé les données dans l'outil Google Feuilles de calcul en téléchargeant le fichier en format CSV depuis Brightspace. Pour y arriver, il faut faire un clic droit dans la page web et cliquer sur *Enregistrer sous*. Ensuite, dans Google Feuilles de calcul, il faut aller dans le menu *Fichier* et cliquer sur *Importer*.
 
-Utilisez le modèle de code ci-dessous pour insérer une capture d'écran. Vos images doivent être sauvegardées dans le même dossier que votre fichier `.md`.
+Voici ce que ça donne et le [lien](https://docs.google.com/spreadsheets/d/1n6u9YcId6_9M40IpYNTZEE7qXEqNcJYxlNoqJJsuAGE/edit?usp=sharing) pour consulter le jeu de données : 
 
-![](import-screen-capture.png)<br>
-*Figure 1 : La fenêtre d'importation d'un fichier de Google Feuilles de calcul.*
+![](jeu-donnees-initial.png)<br>
 
-**Voici quelques exemples de fonctions et de lignes de code mises dans des boîtes grises :**
 
-1. Si vous nommez une fonction, mettez là à l'intérieur de guillemets « inclinés » comme ceci : `IMPORTHTML`.
-1. Si vous voulez inclure une ligne de code complète, faites la même chose, mais avec tout le code : `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternativement, vous pouvez mettre le code dans une boîte indépendante en utilisant le modèle de code ci-dessous :
+On constate qu'il y a beaucoup d'informations : 16 lignes et 26 colonnes contenant des données. Heureusement, elles semblent être assez propres. Il ne semble pas y avoir de fautes d'ortographe dans les colonnes, les chiffres sont bien placés dans les différentes cases et rien ne semble sortir du lot.
 
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-C'est aussi comme ça qu'on crée une liste ordonnée. Il suffit de mettre `1.` devant chaque item.
+On voit toutefois que certaines variables dans les lignes (comme les lignes 7, 9 ou 14) sont placées en retrait. En fait, il ne s'agit pas d'une erreur. C'est parce que cette variable est une sous-catégorie plus précise de la variable qui se trouve juste au-dessus. Il n'y a donc rien à nettoyer à cet endroit.
+
+Portons une attention particulière à certaines colonnes.
+
+La colonne A appelée *Caractéristiques* contient tous les noms des plus hauts types de diplômes obtenus par les résidents des différents quartiers de la Ville d'Ottawa. Plus on descend dans la liste, plus le diplôme est important.
+
+La colonne B appelée *Ville d'Ottawa* contient le nombre de résidents dans tout le territoire de la ville qui ont complété un diplôme. Donc, vis-à-vis la case B2, on connaît le nombre de citoyens d'Ottawa qui ont répondu au questionnaire qui n'ont aucun diplôme.
+
+La colonne C appelée *Orléans Est-Cumberland - Quartier 1* part du même principe que la colonne B mais seulement pour les résidents du quartier 1. Les autres colonnes à sa droite contiennent des données spécifiques pour les différents quartier de la Ville d'Ottawa.
 
 ## 3. Comprendre les données
 
