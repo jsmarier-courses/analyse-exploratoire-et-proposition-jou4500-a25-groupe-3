@@ -40,33 +40,53 @@ La colonne C appelée *Orléans Est-Cumberland - Quartier 1* part du même princ
 
 ### 3.1. Analyse VIMA
 
-Utilisez trois croisillons (`###`) pour créer un intertitre de niveau 3 comme celui-ci. Je vous prie de suivre ce modèle en ce qui a trait aux intertitres de niveaux 1 et 2. Toutefois, je vous laisse le loisir d'utiliser les intertitres de niveau 3 comme bon vous semble.
+L’évaluation de l’exactitude des données est un aspect important du processus d’analyse. 
 
-Insérez votre texte ici.
+L'exactitude est l'une des six dimensions de la qualité des données qui sont prises en compte dans une analyse statistique. Les données sont exactes lorsqu'elles décrivent adéquatement les phénomènes qu’elles sont conçues pour mesurer ou représenter.
 
-Appuyez vos affirmations en citant les sources appropriées. Veuillez suivre les [normes APA en matière d'attribution dans le corps du texte](https://apastyle.apa.org/style-grammar-guidelines/citations).
+Avant d'utiliser nos données, nous les explorerons pour en apprendre davantage sur les variables et les concepts, et aussi pour découvrir si elles comportent des erreurs, des incohérences ou des lacunes.
 
-**Par exemple :**
+Pour explorer la validité de nos données, nous effectuerons une analyse VIMA. Notre analyse VIMA s’appliquera sur les plus hauts diplômes obtenus par quartier à Ottawa, le but est d’évaluer la qualité, l’exactitude et la fiabilité des données avant toute interprétation statistique ou cartographique.
+ 
+Les diplômes sont bien hiérarchisés dans la colonne Caractéristiques (du plus bas « aucun diplôme », au plus haut – « doctorat »). Cette catégorisation est logique et complète. Le Quartier 1 de Orléans Est-Cumberland specifiquement, présente 4275 sans diplôme. Soit approximativement 10,5 % comparable à la moyenne urbaine. Les données sont logiquement cohérentes, structurées et reflètent une progression éducative réaliste. Elles sont valides.
+ 
+Aucune valeur explicite n’est invalide, mais les sous-catégories de métiers (« certificat d’apprenti », « autre qu’un certificat d’apprenti ») pourraient doubler les mêmes répondants dans la catégorie supérieure, selon la définition utilisée par Statistique Canada. Il faudrait peut-être valider la source méthodologique du questionnaire de recensement pour s’assurer de l’exclusivité des catégories.
+ 
+Aucune cellule vide n’est relevée, et toutes les catégories sont couvertes.
+ 
+Aucune valeur extrême irréaliste. Les 13 410 résidents titulaires d’un baccalauréat sur 40 600 adultes représentent environ 33 %, ce qui est quand même élevé mais plausible pour un quartier, qu’on pourrait qualifier : à haut niveau socio-économique (Orléans). En gros, il n’y a aucune surreprésentation anormale détectée.
+ 
+Les données fournies présentent une excellente validité interne : elles sont complètes, proportionnées et réalistes. Notre analyse de fiabilité VIMA conclut donc à des données de haute qualité statistique et prêtes pour la visualisation cartographique ou l’analyse comparative entre quartiers d’Ottawa.
 
-Comme l'affirme Cairo (2016), une visualisation de données doit être véridique...
+### 3.2. Nettoyer les données
 
-### 3.2. Nettoyage des données
+Notre jeu de données était assez propre. Toutefois, nous l’avons tout de même nettoyé. Nous avons sélectionné la première ligne, l’avons entièrement mise en gras, puis nous l’avons figée en allant dans le menu *Affichage*, *Figer*, et en choisissant « 1 ligne ». Nous avons aussi figé la première colonne, selon le même principe, mais cette fois en choisissant « 1 colonne ».
 
-Insérez votre texte ici.
+Nous avons également créé des filtres sur la première ligne en cliquant sur *Données* puis sur *Créer un filtre*. Dans la colonne A (Caractéristiques), nous avons aussi réajusté manuellement l’alignement du texte de chaque ligne, car certaines étaient décalées vers la droite.
+
+Finalement, nous avons sélectionné l’ensemble de notre jeu de données et double-cliqué sur l’espace blanc entre les colonnes afin que celles-ci aient la bonne largeur. Ainsi, tout le contenu était visible avant l’outil filtre.
+
+AJOUTER 1 PHOTO
 
 ### 3.3. Analyse exploratoire des données (AED)
 
-Insérez votre texte ici.
+Nous avons choisi de comparer les niveaux de scolarité atteints parce que les diplômes sont un indicateur central de la composition socioéconomique d’une population : ils influencent le marché du travail, le revenu, le type d’emploi, la mobilité sociale et l’attractivité d’un quartier, par exemple.
+ 
+Ce choix répond à l’un des usages classiques de l’analyse exploratoire en démographie : repérer comment un quartier se situe par rapport à la ville et détecter s’il présente un profil « en avance », « en retard » ou « typique ».​
+ 
+Spécifiquement pour Orléans Est–Cumberland nous avons, 40 600 résidents âgés de 15 ans et plus. 4 275 sans diplôme (10,5 % du quartier ; contre 11 % pour la ville d’Ottawa). 10 650 avec un diplôme d’études secondaires (26,2 %). 25 675 avec un diplôme postsecondaire (63,3 %). 8 905 titulaires d’un baccalauréat (21,9 %) et 2 965 avec une maîtrise, soit 7,3 % du quartier.
 
-**Cette section doit inclure une capture d'écran de votre tableau croisé dynamique, comme ceci :**
+En ce qui concerne la ville d’Ottawa : 834 140 résidents ont 15 ans et plus. 92 040 sans diplôme (11 %). 192 095 avec un diplôme d’études secondaires (23 %). 550 005 avec un diplôme postsecondaire (66 %). 208 395 titulaires d’un baccalauréat (25 %) et 91 825 avec une maîtrise (11 %).
 
-![](pivot-table-screen-capture.png)<br>
-*Figure 2 : Ce tableau croisé dynamique montre...*
-
-**Cette section doit aussi inclure une capture d'écran de votre graphique exploratoire, comme ceci :**
-
-![](chart-screen-capture.png)<br>
-*Figure 3 : Ce graphique exploratoire montre...*
+Il en ressort qu’Orléans Est–Cumberland affiche un fort taux de diplomation postsecondaire, même s’il demeure légèrement inférieur à la moyenne municipale (63 % vs 66 %). La part de diplômés universitaires (maîtrises, doctorats) est notablement plus faible à Orléans que dans l’ensemble d’Ottawa : par exemple, il y a deux fois moins de titulaires de maîtrise (7,3 % contre 11 %) et de doctorat (1,3 % contre 2,2 %). Le quartier Orléans Est–Cumberland compte une plus forte part de diplômés de collèges ou cégeps.
+ 
+Orléans Est–Cumberland est un quartier dont la population est éduquée et stable, mais le profil diffère de quartiers centraux d’Ottawa : il y a davantage de ménages de la classe moyenne technique ou administrative (collège, métiers), et moins d’universitaires. Cela suggère un quartier résidentiel familial, attractif pour des travailleurs qualifiés, mais avec une moindre attractivité pour les expatriés diplômés du supérieur ou la population universitaire. Ce profil éducatif influence possiblement le type de services, d’activités collectives, d’emploi local, et même les enjeux politiques ou sociaux portés par la communauté.
+ 
+Toutefois, une analyse de la structuration du secteur d’emploi (secteur public, technique, commercial, santé, etc.) en fonction du diplôme obtenu, de l’origine géographique (immigration vs natifs), afin de vérifier la répercussion sur la diversité linguistique ou culturelle ainsi qu’une comparaison avec d’autres quartiers (centraux et périphériques) pour situer précisément la singularité d’Orléans pourraient être des éléments qui méritent une analyse plus poussée.
+ 
+En résumé, l’analyse exploratoire montre qu’Orléans Est–Cumberland se distingue par une population instruite, portée par le collège/cégep et les métiers, mais reste à la traîne d’Ottawa pour les études universitaires supérieures, ce qui influence probablement son positionnement socio-économique et démographique. Une analyse plus poussée porterait sur la relation entre niveau de scolarité, secteur d’activité professionnelle et mobilité sociale dans le quartier.
+ 
+AJOUTER LES 2 PHOTOS
 
 ## 4. Récit potentiel
 
@@ -79,7 +99,3 @@ Insérez votre texte ici.
 ## 6. Références
 
 Veuillez inclure une liste de vos références ici. Assurez-vous de suivre les [normes APA pour les références](https://apastyle.apa.org/style-grammar-guidelines/references). Les retraits négatifs (*hanging paragraphs*) ne sont pas nécessaires. Le [guide sur l'adaptation APA](https://arts.uottawa.ca/lettres/sites/arts.uottawa.ca.lettres/files/cartu-outils-de-redaction-adaptation-apa.pdf) de l'Université d'Ottawa pourrait également vous être utile.
-
-**Voici un exemple :**
-
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
