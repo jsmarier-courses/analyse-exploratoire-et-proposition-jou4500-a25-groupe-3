@@ -66,7 +66,8 @@ Nous avons également créé des filtres sur la première ligne en cliquant sur 
 
 Finalement, nous avons sélectionné l’ensemble de notre jeu de données et double-cliqué sur l’espace blanc entre les colonnes afin que celles-ci aient la bonne largeur. Ainsi, tout le contenu était visible avant l’outil filtre.
 
-AJOUTER 1 PHOTO
+![](donnees-nettoyees.png)<br>
+
 
 ### 3.3. Analyse exploratoire des données (AED)
 
@@ -86,7 +87,8 @@ Toutefois, une analyse de la structuration du secteur d’emploi (secteur public
  
 En résumé, l’analyse exploratoire montre qu’Orléans Est–Cumberland se distingue par une population instruite, portée par le collège/cégep et les métiers, mais reste à la traîne d’Ottawa pour les études universitaires supérieures, ce qui influence probablement son positionnement socio-économique et démographique. Une analyse plus poussée porterait sur la relation entre niveau de scolarité, secteur d’activité professionnelle et mobilité sociale dans le quartier.
  
-AJOUTER LES 2 PHOTOS
+![](analyse-exploratoire-1.png)<br>
+![](analyse-exploratoire-2.png)<br>
 
 ## 4. Récit potentiel
 
