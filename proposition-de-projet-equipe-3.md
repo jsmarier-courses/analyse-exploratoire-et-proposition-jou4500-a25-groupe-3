@@ -103,6 +103,13 @@ Parmi les sources pertinentes déjà identifiées : [des statistiques démograph
 
 ## 5. Conclusion
 
+Ce travail nous a permis d’explorer de façon structurée la qualité et la valeur analytique des données sur le niveau de scolarité à Ottawa. Le processus nous a conduits à examiner la validité des données et de faire un nettoyage de base. 
+
+Le plus gratifiant a été de remarquer que l’analyse des données permet de mieux comprendre les différences de scolarité entre les quartiers. Cela aide aussi à identifier des tendances importantes qui pourraient servir à guider des décisions dans la communauté. 
+
+Un point difficile a été d’accepter que les données ne montrent pas tout. Même si les chiffres sur les niveaux de scolarité sont détaillés, ils ne reflètent pas des éléments importants, comme l’expérience de travail, les compétences développées sur le terrain ou d’autres formes d’apprentissage. Ces aspects peuvent avoir un impact majeur sur la réalité socioéconomique d’un quartier. Ne pas pouvoir inclure ces nuances laisse certaines zones grises et oblige à rester prudent dans l’analyse.
+
+Une chose que nous aurions pu faire différemment serait de comparer les données d’Ottawa avec celles d’autres villes. Cette comparaison aurait permis d’avoir un contexte plus large et de mieux comprendre si les tendances observées à Ottawa sont particulières à cette ville ou si elles se retrouvent dans d’autres régions. 
 
 
 ## 6. Références
