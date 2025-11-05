@@ -77,7 +77,7 @@ Ce choix répond à l’un des usages classiques de l’analyse exploratoire en 
  
 Spécifiquement pour Orléans Est–Cumberland nous avons, 40 600 résidents âgés de 15 ans et plus. 4 275 sans diplôme (10,5 % du quartier ; contre 11 % pour la ville d’Ottawa). 10 650 avec un diplôme d’études secondaires (26,2 %). 25 675 avec un diplôme postsecondaire (63,3 %). 8 905 titulaires d’un baccalauréat (21,9 %) et 2 965 avec une maîtrise, soit 7,3 % du quartier.
 
-En ce qui concerne la ville d’Ottawa : 834 140 résidents ont 15 ans et plus. 92 040 sans diplôme (11 %). 192 095 avec un diplôme d’études secondaires (23 %). 550 005 avec un diplôme postsecondaire (66 %). 208 395 titulaires d’un baccalauréat (25 %) et 91 825 avec une maîtrise (11 %).
+En ce qui concerne la ville d’Ottawa : 834 140 résidents ont 15 ans et plus, 92 040 sans diplôme (11 %), 192 095 avec un diplôme d’études secondaires (23 %), 550 005 avec un diplôme postsecondaire (66 %), 208 395 titulaires d’un baccalauréat (25 %) et 91 825 avec une maîtrise (11 %).
 
 Il en ressort qu’Orléans Est–Cumberland affiche un fort taux de diplomation postsecondaire, même s’il demeure légèrement inférieur à la moyenne municipale (63 % vs 66 %). La part de diplômés universitaires (maîtrises, doctorats) est notablement plus faible à Orléans que dans l’ensemble d’Ottawa : par exemple, il y a deux fois moins de titulaires de maîtrise (7,3 % contre 11 %) et de doctorat (1,3 % contre 2,2 %). Le quartier Orléans Est–Cumberland compte une plus forte part de diplômés de collèges ou cégeps.
  
