@@ -92,12 +92,18 @@ En résumé, l’analyse exploratoire montre qu’Orléans Est–Cumberland se d
 
 ## 4. Récit potentiel
 
-Insérez votre texte ici.
+Nous pourrions nous concentrer sur la répartition des niveaux de scolarité dans les quartiers d’Ottawa et ce que ces données révèlent. En utilisant les données sur le niveau de formation des habitants de chaque quartier, nous pourrions créer une carte thématique qui montre la diversité des parcours éducatifs dans la ville. Cette carte permettrait de voir les écarts éducatifs entre les quartiers et d’examiner certains facteurs possibles, comme la proximité des écoles et universités, les réalités socioéconomiques ou le type de développement urbain.
+
+Pour raconter cette histoire, nous utiliserons d’abord les données disponibles sur le niveau de scolarité dans chaque quartier. Nous aurons également besoin de quelques informations supplémentaires, comme l’emploi des habitants et la proximité des écoles et universités. Enfin, nous pourrions regarder des rapports de la ville ou des études sur l’éducation et le développement urbain pour mieux comprendre le contexte et ajouter des informations à notre analyse.
+
+Pour appuyer le projet, nous pourrions interviewer : un responsable municipal en urbanisme ou en développement économique, un spécialiste en éducation ou en études urbaines, ainsi que des résidents de différents quartiers pour connaître leur point de vue sur l’impact de l’éducation dans leur vie ou dans leur communauté.
+
+Parmi les sources pertinentes déjà identifiées : [des statistiques démographiques d’Ottawa](https://ottawa.ca/fr/vivre-ottawa/statistiques-et-donnees-demographiques#), [un rapport qui analyse comment les niveaux de scolarité diffèrent d’un quartier à l’autre à Ottawa](https://www.perspectivesottawa.ca/themes/education-et-apprentissage/le-succes-avant-et-apres-les-etudes/) et [une étude qui porte sur la mobilité intergénérationnelle du niveau de scolarité](https://www.proquest.com/docview/203665088?accountid=14701&cid=CID:20251104205404944:342718&fromOL=true&fromopenview=true&parentSessionId=irNC6%2FqVGtLbuJr8BoIKZIgsXsebxXT%2BQyuJI97yKmw%3D&pq-origsite=gscholar&sourcetype=Scholarly%20Journals). 
+
 
 ## 5. Conclusion
 
-Insérez votre texte ici.
+
 
 ## 6. Références
 
-Veuillez inclure une liste de vos références ici. Assurez-vous de suivre les [normes APA pour les références](https://apastyle.apa.org/style-grammar-guidelines/references). Les retraits négatifs (*hanging paragraphs*) ne sont pas nécessaires. Le [guide sur l'adaptation APA](https://arts.uottawa.ca/lettres/sites/arts.uottawa.ca.lettres/files/cartu-outils-de-redaction-adaptation-apa.pdf) de l'Université d'Ottawa pourrait également vous être utile.
