@@ -114,3 +114,10 @@ Une chose que nous aurions pu faire différemment serait de comparer les donnée
 
 ## 6. Références
 
+De Broucker, P., & Underwood, K. (1998). Mobilite intergenerationnelle du niveau de scolarite : Une comparaison internationale axee sur les etudes postsecondaires. *Education Quarterly Review, 5*(2), 30‑51. Canadian Business & Current Affairs Database.
+
+Perspectives Ottawa. (s. d.). *Le succès avant et après les études.* https://www.perspectivesottawa.ca/themes/education-et-apprentissage/le-succes-avant-et-apres-les-etudes/
+
+Ville d’Ottawa. (s. d.). *Statistiques et données démographiques.* https://ottawa.ca/fr/vivre-ottawa/statistiques-et-donnees-demographiques#
+
+Ville d’Ottawa. (2023). *Questionnaire détaillé du recensement de 2021—Données par quartier* [Dataset]. https://ouverte.ottawa.ca/datasets/ottawa::questionnaire-d%C3%A9taill%C3%A9-du-recensement-de-2021-donn%C3%A9es-par-quartier/about
